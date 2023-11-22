@@ -111,7 +111,8 @@ header {
     margin-bottom: 2rem;
 }
 
-header nav ul li a {
+header nav ul li a,
+header nav ul li a:visited {
     color: var(--lessSubtleColor);
 }
 

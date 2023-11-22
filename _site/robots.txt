@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dchere.com/sitemap.xml

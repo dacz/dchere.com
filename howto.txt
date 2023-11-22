@@ -1,0 +1,4 @@
+<figure> {% image "img/book_bullshit_jobs.jpeg", "Book: Bullshit Jobs - David Graeber" %}
+    <figcaption>Caption goes ka jsdk ajsdk jaksj dka jsdkj aksdj kas jdkas jdka jskd jaks djka sjdk
+        jhere</figcaption>
+</figure>

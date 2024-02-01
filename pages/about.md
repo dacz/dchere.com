@@ -19,7 +19,6 @@ date: 2023-07-11
 <ul>
     <li>Developer (backend preferable, frontend)</li>
     <li>Solution Architect</li>
-    <li>Developer Experience advocate</li>
     <li>Manager (tech, product)</li>
     <li>Entrepreneur</li>
     <li>UX designer</li>
@@ -32,7 +31,7 @@ date: 2023-07-11
 </ul>
 <h2>Tech skills</h2>
 <p>
-    <string>Very good:</string> Go, JavaScript/TypeScript<br />
+    <strong>Very good:</strong> Go, JavaScript/TypeScript<br />
     <strong>Solid:</strong> CSS, HTML, Svelte, SQL, REST<br />
     <strong>Basic:</strong> Rust, Elixir<br />
     <strong>Used intensively a while ago:</strong> React, GraphQL, AWS<br /> Matter of

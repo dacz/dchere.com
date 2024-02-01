@@ -31,7 +31,7 @@ It is not when you have the big picture internalized - happy people bring more v
 
 The rule is the same to achieve anything else (playing piano, running a marathon). Just do it, track it, and stick with it.
 
-In my [previous post](/chat-gpt-dev-ex), I had fun asking chat GPT as someone new to DX. GPT nicely summarized the basics.
+In my [previous post](chat-gpt-dev-ex), I had fun asking chat GPT as someone new to DX. GPT nicely summarized the basics.
 
 You can see that it's common sense. You do not have to spend a ridiculously high amount of money on it (well, you can, but 🤷🏻‍♂️)
 

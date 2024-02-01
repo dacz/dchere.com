@@ -9,7 +9,7 @@ date: 2023-11-22
 
 ## Trash and dance!
 
-{% image "img/packaging-dance-to-trash.jpeg", "Thash and dance" %}
+{% image "img/packaging-dance-to-trash.jpeg", "Trash and dance" %}
 
 I'm thinking about the designer of this packaging (a boring everyday snack, no fancy brand). What does it take to NOT use existing sign about "trash it" (least effort taken), but create something that can make someone who sees this easter eggs, smile?
 
@@ -18,6 +18,11 @@ Was it only the designer who made a graphical joke? Maybe it was a joyful subver
 Maybe the manager participated? I doubt it.
 
 Anyway - well done! I love it!💃
+
+_Update: another example:_
+
+{% image "img/packaging-pribinacek.jpeg", "Meow and trash it" %}
+
 
 ## Love letter
 

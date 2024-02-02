@@ -5,6 +5,13 @@ date: 2023-07-11
 --- 
 
 <h1>David Cizek - about me</h1>
+
+<h2>Are you thinking about new product or redesigning existing one? Not even sure what it should be? You want to experiment but not to risk too much. You feel that IT tech could be strong (but ont the only one) differentiator.</h2>
+
+<h3>I love such challenges!</h3>
+
+<hr>
+
 <p> Location: Prague, Czech Republic<br />
     <a href="https://github.com/dacz" , target="_blank">GitHub</a>, <a
         href="https://www.linkedin.com/in/davidcizek/" target="_blank">Linkedin</a><br /> <span
@@ -15,6 +22,7 @@ date: 2023-07-11
     <li>Czech (mother language)</li>
     <li>English (proficient)</li>
 </ul>
+
 <h2>Generally experienced positions</h2>
 <ul>
     <li>Developer (backend preferable, frontend)</li>

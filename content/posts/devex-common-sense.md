@@ -23,7 +23,7 @@ Developers usually don't meet customers, so why care about their experience? Fir
 
 Organizations care about their people, not only because they want to, for whatever human or social reasons, but because they see that having happy people around is usually more profitable.
 
-Developer experience is not a science. And no - having an Engineering Lead or Engineering Manager doesn't mean you care about DX.
+Developer experience is not a science. And no - having an Engineering Lead or Engineering Manager doesn't automatically mean you care about DX.
 
 ----
 

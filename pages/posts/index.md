@@ -1,6 +1,6 @@
 --- 
 layout: pagelayout 
-title: dchere - blog 
+title: dchere posts 
 templateEngineOverride: njk, md
 ---
 <h1>Blog</h1>

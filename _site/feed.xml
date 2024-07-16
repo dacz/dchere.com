@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://dchere.com/">
   <title>dchere posts</title>
-  <subtitle>personal optinions on tech, development, and life</subtitle>
+  <subtitle>my personal optinions</subtitle>
   <link href="https://dchere.com/feed.xml" rel="self"/>
   <link href="https://dchere.com/"/>
   <updated>2023-11-22T00:00:00Z</updated>
   <id>https://dchere.com/</id>
   <author>
     <name>David Cizek</name>
-    <email>pleasegotowebsitetofindemail@dchere.com</email>
+    <email>please-go-to-website-to-find-email@dchere.com</email>
   </author>
   <entry>
     <title>Packaging with personal touch</title>

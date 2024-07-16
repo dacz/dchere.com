@@ -4,12 +4,57 @@
   <subtitle>my personal optinions</subtitle>
   <link href="https://dchere.com/feed.xml" rel="self"/>
   <link href="https://dchere.com/"/>
-  <updated>2023-11-22T00:00:00Z</updated>
+  <updated>2024-07-16T00:00:00Z</updated>
   <id>https://dchere.com/</id>
   <author>
     <name>David Cizek</name>
     <email>please-go-to-website-to-find-email@dchere.com</email>
   </author>
+  <entry>
+    <title>Who are you?</title>
+    <link href="https://dchere.com/posts/who-are-you/"/>
+    <updated>2024-07-16T00:00:00Z</updated>
+    <id>https://dchere.com/posts/who-are-you/</id>
+    <content xml:lang="en" type="html">&lt;h1&gt;Who are you?&lt;/h1&gt;
+&lt;p&gt;“Who are YOU?”
+This was not an encouraging opening for a conversation. Alice replied, rather shyly,
+“I--I hardly know, sir, just at present-- at least I know who I WAS when I got up this morning, but I think I must have been changed several times since then.”&lt;/p&gt;
+&lt;p&gt;― Lewis Carroll, Alice in Wonderland&lt;/p&gt;
+&lt;p&gt;Simple game. Tic-tac-toe.&lt;/p&gt;
+&lt;p&gt;Choose &lt;strong&gt;x&lt;/strong&gt; or &lt;strong&gt;o&lt;/strong&gt; stone.&lt;/p&gt;
+&lt;p&gt;Play a round and then your opponent.&lt;/p&gt;
+&lt;p&gt;Maybe I win, maybe I loose, maybe it&#39;s a draw. Winner and looser.&lt;/p&gt;
+&lt;p&gt;But what if…&lt;/p&gt;
+&lt;p&gt;… each round your stone is chosen by a chance? And for your playmate, too?&lt;/p&gt;
+&lt;p&gt;Who is the winner and who is the looser?&lt;/p&gt;
+&lt;p&gt;Is there any looser?&lt;/p&gt;
+&lt;p&gt;PLAY THE GAME&lt;/p&gt;
+&lt;p&gt;How did you play?&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Gramophone</title>
+    <link href="https://dchere.com/posts/gramophone/"/>
+    <updated>2024-06-24T00:00:00Z</updated>
+    <id>https://dchere.com/posts/gramophone/</id>
+    <content xml:lang="en" type="html">&lt;h1&gt;Gramophone&lt;/h1&gt;
+&lt;p&gt;I found an old gramophone.&lt;/p&gt;
+&lt;p&gt;Not used for years. Some sliders and buttons needed excersize (one - two, min - max, one - two, up - down, one - two, min - max, … ). Like me in the morning (sometimes).&lt;/p&gt;
+&lt;p&gt;But it plays!&lt;/p&gt;
+&lt;p&gt;It&#39;s big. Was not easy to find a place for it. Once found, it is there - part of the room and part of the day.&lt;/p&gt;
+&lt;p&gt;Now it is the room with the gramophone.&lt;/p&gt;
+&lt;p&gt;One LP was in it. Old Balkanton version of Elvis hits.&lt;/p&gt;
+&lt;p&gt;The sound is different. I cannot find the word for difference. Maybe &amp;quot;less artificial&amp;quot;.&lt;/p&gt;
+&lt;p&gt;No easy skipping song. No shuffle. At the beginning I felt restlessness listening to song I did not like so much.&lt;/p&gt;
+&lt;p&gt;Later I found it relieving - listening, not interfering.&lt;/p&gt;
+&lt;p&gt;Where do I get another LPs?&lt;/p&gt;
+&lt;p&gt;I&#39;ll find a shop with used LPs, go there and manually list their LPs. Real LPs. No fulltext search but two hands search.&lt;/p&gt;
+&lt;p&gt;And I did it today. Small shabby shop, full of old LPs. With two older guys who apparently love rock - probably shop owners - playing LPs with a passion.&lt;/p&gt;
+&lt;p&gt;It was hard to choose one. But I did and bring it home.&lt;/p&gt;
+&lt;p&gt;It feels stupid to write &amp;quot;I bring it home&amp;quot;. But last time I remember she same feeling was maybe 35 years ago when I bought Pink Floyd LP and was very careful not to break on my way home.&lt;/p&gt;
+&lt;p&gt;It feels melancholic. Maybe it is, maybe not. I put Dire Strait I bought on, tuned it up and listened to it. I like even the cracks.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Packaging with personal touch</title>
     <link href="https://dchere.com/posts/packaging-fun/"/>
@@ -40,7 +85,13 @@
 &lt;p&gt;It is that simple.&lt;/p&gt;
 &lt;p&gt;Developers usually don&#39;t meet customers, so why care about their experience? First of all, it is because of better effectivity, as discussed. Another good reason is that the software is everywhere. Crappy software sucks and frustrates - customers or internal users. No developer wants to make buggy software, same as no chef wants to make a bad meal.&lt;/p&gt;
 &lt;p&gt;Organizations care about their people, not only because they want to, for whatever human or social reasons, but because they see that having happy people around is usually more profitable.&lt;/p&gt;
-&lt;p&gt;Developer experience is not a science. And no - having engineering lead or engineering manager doesn&#39;t mean you are caring about DX.&lt;/p&gt;
+&lt;p&gt;Developer experience is not a science. And no - having an Engineering Lead or Engineering Manager doesn&#39;t mean you care about DX.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PS: Just read &lt;a href=&quot;https://dynomight.net/advice/&quot;&gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If people have a good “user experience” when they interact with you, then they will want to interact with you more in the future.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&#39;s not completely related (except the word &amp;quot;experience&amp;quot;), but I think it is funny, it&#39;s to the point, and I should follow this advice.&lt;/p&gt;
 </content>
   </entry>
   <entry>

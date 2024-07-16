@@ -1,0 +1,37 @@
+---
+layout: postlayout
+tags: post
+title: Who are you?
+date: 2024-07-16
+---
+
+# Who are you?
+
+
+“Who are YOU?”
+This was not an encouraging opening for a conversation. Alice replied, rather shyly,
+“I--I hardly know, sir, just at present-- at least I know who I WAS when I got up this morning, but I think I must have been changed several times since then.”
+
+― Lewis Carroll, Alice in Wonderland
+
+
+Simple game. Tic-tac-toe.
+
+Choose **x** or **o** stone.
+
+Play a round and then your opponent.
+
+Maybe I win, maybe I loose, maybe it's a draw. Winner and looser.
+
+But what if…
+
+… each round your stone is chosen by a chance? And for your playmate, too?
+
+Who is the winner and who is the looser? 
+
+Is there any looser?
+
+PLAY THE GAME
+
+How did you play?
+

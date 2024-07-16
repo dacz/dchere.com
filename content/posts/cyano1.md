@@ -1,11 +1,11 @@
 ---
 layout: postlayout
 tags: post
-title: Cyanotype - joy of the moment
+title: Cyanotype - marvelous accidents
 date: 2023-09-02
 ---
 
-# Cyanotype and the Joy of The Moment
+# Cyanotype and Marvelous Accidents
 
 {% image "content/img/cyano_small_branch1.jpeg", "Cyanotype - moment" %}
 
@@ -27,7 +27,7 @@ There is so much space for unintended effects, and randomness (when the wind blo
 
 There is a way to make it yellow and blue. The part of the image that takes a bath in baking soda for 8 hours turns yellow.
 
-It is much more effort than taking a picture by mobile phone, 😉 but it is worth it. You can even do a kind of photos.
+You can even do a kind of photos.
 
 {% image "content/img/cyano_sunsurfing.jpeg", "Cyanotype - surfer" %}
 

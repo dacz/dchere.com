@@ -21,6 +21,8 @@ title: dchere
             <div class="prev-next-post">
                 {% if previousPost %}
                     <a href="{{ previousPost.url }}" class="prev-post">{{ previousPost.data.title }}</a>
+                {% else %}
+                    <span></span>
                 {% endif %}
                 {% if nextPost %}
                     <a href="{{ nextPost.url }}" class="next-post">{{ nextPost.data.title }}</a>

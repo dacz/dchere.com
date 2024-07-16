@@ -7,7 +7,7 @@ date: 2023-10-21
 
 # Book: Bullshit Jobs by David Graeber
 
-{% image "img/book_bullshit_jobs.jpeg", "Book: Bullshit Jobs - David Graeber" %}
+{% image "content/img/book_bullshit_jobs.jpeg", "Book: Bullshit Jobs - David Graeber" %}
 
 A year ago, I read [The Dawn of Everything](https://en.wikipedia.org/wiki/The_Dawn_of_Everything) by David Graeber and David Wengrow. It felt like fresh air for me.
 
@@ -24,6 +24,3 @@ To pick up some - controversial indeed - takeaways:
  * Yes, we could work only 20 hours per week - if there weren't bullshit jobs.
  * No, capitalism doesn't make everything effective.
  * Many (most?) organizations have a similar structure as feudal society (with all the layers of feudal lords, retainers, and vassals).
-
-
-

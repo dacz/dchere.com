@@ -26,18 +26,6 @@ const imageShortcode = async (
     }
   });
 
-  // console.log('image', imageMetadata);
-
-  // const imageAttributes = {
-  //   alt,
-  //   sizes,
-  //   loading: "lazy",
-  //   decoding: "async",
-  // };
-
-  // return Image.generateHTML(imageMetadata, imageAttributes);
-
-
   const sourceHtmlString = Object.values(imageMetadata)
     // Map each format to the source HTML markup
     .map((images) => {
@@ -86,7 +74,7 @@ const imageShortcode = async (
 };
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("pages/assets/main.css");
+  eleventyConfig.addPassthroughCopy("content/assets/main.css");
 
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
@@ -98,7 +86,7 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: "pages",
+      input: "content",
     }
   }
 };

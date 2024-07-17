@@ -1,0 +1,30 @@
+sudo apt-get update
+sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https curl wget
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+sudo apt update
+sudo apt install caddy
+
+systemctl status caddy
+journalctl -u caddy
+
+journalctl -u caddy > file_name.txt && tail file_name.txt
+
+sudo systemctl edit caddy
+
+
+Editing /etc/systemd/system/caddy.service.d/override.conf
+tady je ten original, kterej bude overridovanej tim navic ### /lib/systemd/system/caddy.service
+
+
+
+ExecStart=/usr/bin/caddy run --environ --config /home/caddyweb/Caddyfile
+ExecReload=/usr/bin/caddy reload --config /home/caddyweb/Caddyfile --force
+
+
+sudo systemctl restart caddy
+
+
+
+
+rsync -avz -e "ssh -i /Users/davidc/.ssh/id_rsa_undef_lightsail" --progress ~/development/testrsync/ admin@18.184.231.194:/home/caddyweb/testr

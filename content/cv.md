@@ -25,7 +25,7 @@ date: 2023-07-11
 
 <h2>Generally experienced positions</h2>
 <ul>
-    <li>Developer (backend preferable, frontend)</li>
+    <li>Developer (backend preferable, fullstack possible)</li>
     <li>Solution Architect</li>
     <li>Manager (tech, product)</li>
     <li>Entrepreneur</li>

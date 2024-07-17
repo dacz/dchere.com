@@ -1,15 +1,15 @@
 --- 
 layout: pagelayout 
-title: dchere 
+title: dchere posts 
+templateEngineOverride: njk, md
 ---
-
-# Welcome!
-
-I [did a lot of things](/about/) and plan to do some more.
-
-I'm curious. I'm regulary asking myself what happens if we don't take the established status quo for granted. I believe in quality, not quantity.
-
-I'm not trying to convince you about my point of view. It makes my day if something from my [writing](/posts/) would resonate with you. 
-
-~ David
-
+<h1>Posts</h1>
+<ul class="postlist">
+{%- for post in collections.post | reverse -%}
+    <li{% if page.url==post.url %} aria-current="page" {% endif %}>
+        <a href="{{ post.url }}">{{ post.data.title }} <span class="postdate">
+            [{{ post.data.date.toLocaleDateString("en-US", { year: 'numeric', month: 'short', day:
+                'numeric'}) }}]</span></a>
+    </li>
+{%- endfor -%}
+</ul>

@@ -1,22 +1,8 @@
 ---
+layout: genlayout.njk
 title: dchere
 ---
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>dchere - {{ title }}</title>
-        <link rel="stylesheet" href="/assets/main.css">
-    </head>
-    <body>
-        {% include "header.njk" %}
         <article>
             {{ content | safe }}
         </article>
-        {% include "footer.njk" %}
-    </body>
-    <script defer>
-        {% include "../assets/bundle.js" %}</script>
-</html>

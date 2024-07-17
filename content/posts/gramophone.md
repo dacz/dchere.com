@@ -3,9 +3,8 @@ layout: postlayout
 tags: post
 title: Gramophone
 date: 2024-06-24
+modified: 2024-06-27
 ---
-
-# Gramophone
 
 I found an old gramophone.
 

@@ -1,11 +1,9 @@
 ---
 layout: postlayout
 tags: post
-title: Bullshit Jobs (by David Graeber)
+title: "Book: Bullshit Jobs by David Graeber"
 date: 2023-10-21
 ---
-
-# Book: Bullshit Jobs by David Graeber
 
 {% image "content/img/book_bullshit_jobs.jpeg", "Book: Bullshit Jobs - David Graeber" %}
 

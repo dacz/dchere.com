@@ -4,8 +4,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>dchere - Who are you?</title>
+        <title>dchere - Who Are You?</title>
         <link rel="stylesheet" href="/assets/main.css">
+        
     </head>
     <body>
         <header>
@@ -15,17 +16,21 @@
                 <a href="/">dchere</a>
             </li>
             <li >
-                <a href="/about/">About me</a>
+                <a href="/about/">About</a>
             </li>
-            <li >
+            
+            <li  aria-current="section" >
                 <a href="/posts/">Posts</a>
             </li>
         </ul>
     </nav>
 </header>
-        <article>
-            <h1>Who are you?</h1>
-<figure> <picture >
+        
+            
+<article>
+    <h1>Who Are You?</h1>
+    <div class="article-date">July 16, 2024</div>
+    <figure> <picture >
     <source type="image/webp" srcset="/img/who-are-you-ozzB_g0dFV-700.webp 700w, /img/who-are-you-ozzB_g0dFV-1152.webp 1152w" sizes="(max-width: 756px) 80vw, (min-width: 757px) 576px">
 <source type="image/jpeg" srcset="/img/who-are-you-ozzB_g0dFV-700.jpeg 700w, /img/who-are-you-ozzB_g0dFV-1152.jpeg 1152w" sizes="(max-width: 756px) 80vw, (min-width: 757px) 576px">
     <img src="/img/who-are-you-ozzB_g0dFV-1152.webp" width="1152" height="1536" alt="Who are you?" loading="lazy" decoding="async">
@@ -34,10 +39,10 @@
     &copy; 1967, 1996 by Jerome Agel</figcaption>
 </figure>
 <blockquote>
-<p>“Who are YOU?”
-This was not an encouraging opening for a conversation. Alice replied, rather shyly,
-“I--I hardly know, sir, just at present-- at least I know who I WAS when I got up this morning, but I think I must have been changed several times since then.”</p>
-<p>― Lewis Carroll, Alice in Wonderland</p>
+<p>“Who are YOU?”</p>
+<p>This was not an encouraging opening for a conversation. Alice replied, rather shyly,</p>
+<p>“I--I hardly know, sir, just at present-- at least I know who I WAS when I got up this morning, but I think I must have been changed several times since then.”</p>
+<p><span class="author">Lewis Carroll, Alice in Wonderland</span></p>
 </blockquote>
 <h2>Imagine</h2>
 <p>Simple game. Tic-tac-toe.</p>
@@ -47,18 +52,20 @@ This was not an encouraging opening for a conversation. Alice replied, rather sh
 <p>But what if…</p>
 <p>… each round your stone is chosen by a chance?
 And the same for your playmate.</p>
-<p>Who is the winner and who is the looser?</p>
-<p>Is there any looser?</p>
+<p>Who are you? The winner or the looser?</p>
+<p>Or is there any looser at all?</p>
 <p><a href="/ttt"><strong>Try by yourself.</strong></a></p>
 <p>How did you play?</p>
 
-        </article>
-            <div class="prev-next-post">
-                
-                    <a href="/posts/gramophone/" class="prev-post">Gramophone</a>
-                
-                
-            </div>
+</article>
+    <div class="prev-next-post">
+        
+            <a href="/posts/gramophone/" class="prev-post">Gramophone</a>
+        
+        
+    </div>
+
+
         
         <footer>☀️🌊 No cookies served. Content is created with
     <a
@@ -67,7 +74,7 @@ And the same for your playmate.</p>
         target="_blank">cc-by license</a>.</footer>
     </body>
     <script defer>
-        function openm() {
+        function openm(e) {
   window.open('6d61696c746f3a6869406463686572652e636f6d'.split('').reduce((acc, it, i) => i % 2 ? [...acc.slice(0, acc.length - 1), [...(acc.slice(acc.length - 1)[0]), it]] : [...acc, [it]], []).map(i => parseInt(i.join(''), 16)).map(i => String.fromCharCode(i)).join(''));
 }
 
@@ -76,4 +83,5 @@ document.addEventListener('DOMContentLoaded', () => {
   nodes.forEach(node => node.setAttribute('target', '_blank'));
 });
 </script>
+    
 </html>

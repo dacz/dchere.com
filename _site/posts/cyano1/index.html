@@ -4,8 +4,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>dchere - Cyanotype - marvelous accidents</title>
+        <title>dchere - Cyanotype and Marvelous Accidents</title>
         <link rel="stylesheet" href="/assets/main.css">
+        
     </head>
     <body>
         <header>
@@ -15,17 +16,21 @@
                 <a href="/">dchere</a>
             </li>
             <li >
-                <a href="/about/">About me</a>
+                <a href="/about/">About</a>
             </li>
-            <li >
+            
+            <li  aria-current="section" >
                 <a href="/posts/">Posts</a>
             </li>
         </ul>
     </nav>
 </header>
-        <article>
-            <h1>Cyanotype and Marvelous Accidents</h1>
-<picture >
+        
+            
+<article>
+    <h1>Cyanotype and Marvelous Accidents</h1>
+    <div class="article-date">September 2, 2023</div>
+    <picture >
     <source type="image/webp" srcset="/img/cyano_small_branch1-CD65KljUjz-700.webp 700w, /img/cyano_small_branch1-CD65KljUjz-1152.webp 1152w" sizes="(max-width: 756px) 80vw, (min-width: 757px) 576px">
 <source type="image/jpeg" srcset="/img/cyano_small_branch1-CD65KljUjz-700.jpeg 700w, /img/cyano_small_branch1-CD65KljUjz-1152.jpeg 1152w" sizes="(max-width: 756px) 80vw, (min-width: 757px) 576px">
     <img src="/img/cyano_small_branch1-CD65KljUjz-1152.webp" width="1152" height="1536" alt="Cyanotype - moment" loading="lazy" decoding="async">
@@ -58,15 +63,17 @@
     <img src="/img/cyano_sunsurfing-6eHUQVoGwP-1152.webp" width="1152" height="1642" alt="Cyanotype - surfer" loading="lazy" decoding="async">
   </picture>
 
-        </article>
-            <div class="prev-next-post">
-                
-                    <span></span>
-                
-                
-                    <a href="/posts/book-bullshit-jobs/" class="next-post">Bullshit Jobs (by David Graeber)</a>
-                
-            </div>
+</article>
+    <div class="prev-next-post">
+        
+            <span></span>
+        
+        
+            <a href="/posts/book-bullshit-jobs/" class="next-post">Book: Bullshit Jobs by David Graeber</a>
+        
+    </div>
+
+
         
         <footer>☀️🌊 No cookies served. Content is created with
     <a
@@ -75,7 +82,7 @@
         target="_blank">cc-by license</a>.</footer>
     </body>
     <script defer>
-        function openm() {
+        function openm(e) {
   window.open('6d61696c746f3a6869406463686572652e636f6d'.split('').reduce((acc, it, i) => i % 2 ? [...acc.slice(0, acc.length - 1), [...(acc.slice(acc.length - 1)[0]), it]] : [...acc, [it]], []).map(i => parseInt(i.join(''), 16)).map(i => String.fromCharCode(i)).join(''));
 }
 
@@ -84,4 +91,5 @@ document.addEventListener('DOMContentLoaded', () => {
   nodes.forEach(node => node.setAttribute('target', '_blank'));
 });
 </script>
+    
 </html>

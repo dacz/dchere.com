@@ -1,11 +1,9 @@
 ---
 layout: postlayout
 tags: post
-title: Cyanotype - marvelous accidents
+title: Cyanotype and Marvelous Accidents
 date: 2023-09-02
 ---
-
-# Cyanotype and Marvelous Accidents
 
 {% image "content/img/cyano_small_branch1.jpeg", "Cyanotype - moment" %}
 

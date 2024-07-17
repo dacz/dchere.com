@@ -1,13 +1,17 @@
 --- 
 layout: pagelayout 
 title: Different game 
+addasyncjs: ttt.js
+addcss: ttt.css
 ---
 
 # Different tic-tac-toe / noughts and crosses / Xs and Os
 
-Imagine that you will not choose the mark you play next move with. It is randomply chosen for each move - your or your playmate.
+You will not choose the mark you play next move with. It is randomly chosen for your each move. The same apply for your playmate's move.
 
 Yes, you can get **"X"** to play and in next move it could be **"O"**.
+
+The question is: who is the winner and the looser? Is there any looser?
 
 <div id="placegame">
     <div id="game-start">
@@ -39,11 +43,11 @@ Yes, you can get **"X"** to play and in next move it could be **"O"**.
                     </div>
                     <div>
                         <input type="radio" id="havingfun" name="feeling" value="havingfun">
-                        <label for="cooperated">having fun</label>
+                        <label for="havingfun">having fun</label>
                     </div>
                     <div>
                         <input type="radio" id="useless" name="feeling" value="useless">
-                        <label for="cooperated">it's useless</label>
+                        <label for="useless">it's useless</label>
                     </div>
                     <div>
                         <input type="radio" id="nofeeling" name="feeling" value="nofeeling">

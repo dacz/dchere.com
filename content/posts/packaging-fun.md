@@ -1,11 +1,9 @@
 ---
 layout: postlayout
 tags: post
-title: Packaging with personal touch
+title: Packaging with Personal Touch
 date: 2023-11-22
 ---
-
-# Packaging With Personal Touch
 
 ## Trash and dance!
 

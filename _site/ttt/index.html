@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>dchere - Different game</title>
         <link rel="stylesheet" href="/assets/main.css">
+        
+            <link rel="stylesheet" href="/assets/ttt.css">
+        
     </head>
     <body>
         <header>
@@ -15,18 +18,22 @@
                 <a href="/">dchere</a>
             </li>
             <li >
-                <a href="/about/">About me</a>
+                <a href="/about/">About</a>
             </li>
+            
             <li >
                 <a href="/posts/">Posts</a>
             </li>
         </ul>
     </nav>
 </header>
+        
+            
         <article>
             <h1>Different tic-tac-toe / noughts and crosses / Xs and Os</h1>
-<p>Imagine that you will not choose the mark you play next move with. It is randomply chosen for each move - your or your playmate.</p>
+<p>You will not choose the mark you play next move with. It is randomly chosen for your each move. The same apply for your playmate's move.</p>
 <p>Yes, you can get <strong>&quot;X&quot;</strong> to play and in next move it could be <strong>&quot;O&quot;</strong>.</p>
+<p>The question is: who is the winner and the looser? Is there any looser?</p>
 <div id="placegame">
     <div id="game-start">
         <button>Start new game</button>
@@ -57,11 +64,11 @@
                     </div>
                     <div>
                         <input type="radio" id="havingfun" name="feeling" value="havingfun">
-                        <label for="cooperated">having fun</label>
+                        <label for="havingfun">having fun</label>
                     </div>
                     <div>
                         <input type="radio" id="useless" name="feeling" value="useless">
-                        <label for="cooperated">it's useless</label>
+                        <label for="useless">it's useless</label>
                     </div>
                     <div>
                         <input type="radio" id="nofeeling" name="feeling" value="nofeeling">
@@ -89,6 +96,8 @@
 </div>
 
         </article>
+
+        
         <footer>☀️🌊 No cookies served. Content is created with
     <a
         href="https://creativecommons.org/licenses/by/4.0/"
@@ -96,7 +105,7 @@
         target="_blank">cc-by license</a>.</footer>
     </body>
     <script defer>
-        function openm() {
+        function openm(e) {
   window.open('6d61696c746f3a6869406463686572652e636f6d'.split('').reduce((acc, it, i) => i % 2 ? [...acc.slice(0, acc.length - 1), [...(acc.slice(acc.length - 1)[0]), it]] : [...acc, [it]], []).map(i => parseInt(i.join(''), 16)).map(i => String.fromCharCode(i)).join(''));
 }
 
@@ -105,4 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   nodes.forEach(node => node.setAttribute('target', '_blank'));
 });
 </script>
+    
+        <script async src="../assets/ttt.js"></script>
+    
 </html>

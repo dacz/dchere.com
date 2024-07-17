@@ -1,13 +1,11 @@
 ---
 layout: postlayout
 tags: post
-title: Developer experience is a common sense
+title: Developer Experience is a Common Sense
 date: 2023-11-12
 ---
 
-# Developer experience - DevEx - DX
-
-I'm interested in DX. Why? I consider myself to be a developer. So I have first-hand experience with when DX works and when not.
+I'm interested in developer experience (DevEx or DX). Why? I consider myself to be a developer. So I have first-hand experience with when DX works and when not.
 
 Sometimes, it is frustrating. So. Much. Not because of technical problems. Developers usually love technical challenges. Surprisingly, they don't mind working on tight deadlines, if needed. What ruins their day (and productivity) is when they are not let to deliver solution. It sounds weirs, doesn't it?
 
@@ -30,5 +28,7 @@ Developer experience is not a science. And no - having an Engineering Lead or En
 PS: Just read [here](https://dynomight.net/advice/):
 
 > If people have a good “user experience” when they interact with you, then they will want to interact with you more in the future.
+>
+> <span class="author">[Dynomight](https://dynomight.net/advice/)</span>
 
 It's not completely related (except the word "experience"), but I think it is funny, it's to the point, and I should follow this advice.

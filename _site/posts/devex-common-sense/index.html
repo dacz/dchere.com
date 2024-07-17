@@ -4,8 +4,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>dchere - Developer experience is a common sense</title>
+        <title>dchere - Developer Experience is a Common Sense</title>
         <link rel="stylesheet" href="/assets/main.css">
+        
     </head>
     <body>
         <header>
@@ -15,17 +16,21 @@
                 <a href="/">dchere</a>
             </li>
             <li >
-                <a href="/about/">About me</a>
+                <a href="/about/">About</a>
             </li>
-            <li >
+            
+            <li  aria-current="section" >
                 <a href="/posts/">Posts</a>
             </li>
         </ul>
     </nav>
 </header>
-        <article>
-            <h1>Developer experience - DevEx - DX</h1>
-<p>I'm interested in DX. Why? I consider myself to be a developer. So I have first-hand experience with when DX works and when not.</p>
+        
+            
+<article>
+    <h1>Developer Experience is a Common Sense</h1>
+    <div class="article-date">November 12, 2023</div>
+    <p>I'm interested in developer experience (DevEx or DX). Why? I consider myself to be a developer. So I have first-hand experience with when DX works and when not.</p>
 <p>Sometimes, it is frustrating. So. Much. Not because of technical problems. Developers usually love technical challenges. Surprisingly, they don't mind working on tight deadlines, if needed. What ruins their day (and productivity) is when they are not let to deliver solution. It sounds weirs, doesn't it?</p>
 <p>Imagine the restaurant - you will unlikely go somewhere where you had a bad experience. But you will frequently eat at the one where you feel good. You feel good because the staff is friendly and nice, not stressed or frustrated (and sure they have a good meal). You watch the place, and you see a well-functioning organism. The restaurant thrives.</p>
 <p>Everyone can more or less imagine what the chef needs (and hates). Developers' needs are far from well-known. Misunderstanding, downplaying, or ignoring these needs is a sure way to ruin their experience.</p>
@@ -38,18 +43,21 @@
 <p>PS: Just read <a href="https://dynomight.net/advice/">here</a>:</p>
 <blockquote>
 <p>If people have a good “user experience” when they interact with you, then they will want to interact with you more in the future.</p>
+<p><span class="author"><a href="https://dynomight.net/advice/">Dynomight</a></span></p>
 </blockquote>
 <p>It's not completely related (except the word &quot;experience&quot;), but I think it is funny, it's to the point, and I should follow this advice.</p>
 
-        </article>
-            <div class="prev-next-post">
-                
-                    <a href="/posts/book-bullshit-jobs/" class="prev-post">Bullshit Jobs (by David Graeber)</a>
-                
-                
-                    <a href="/posts/packaging-fun/" class="next-post">Packaging with personal touch</a>
-                
-            </div>
+</article>
+    <div class="prev-next-post">
+        
+            <a href="/posts/book-bullshit-jobs/" class="prev-post">Book: Bullshit Jobs by David Graeber</a>
+        
+        
+            <a href="/posts/packaging-fun/" class="next-post">Packaging with Personal Touch</a>
+        
+    </div>
+
+
         
         <footer>☀️🌊 No cookies served. Content is created with
     <a
@@ -58,7 +66,7 @@
         target="_blank">cc-by license</a>.</footer>
     </body>
     <script defer>
-        function openm() {
+        function openm(e) {
   window.open('6d61696c746f3a6869406463686572652e636f6d'.split('').reduce((acc, it, i) => i % 2 ? [...acc.slice(0, acc.length - 1), [...(acc.slice(acc.length - 1)[0]), it]] : [...acc, [it]], []).map(i => parseInt(i.join(''), 16)).map(i => String.fromCharCode(i)).join(''));
 }
 
@@ -67,4 +75,5 @@ document.addEventListener('DOMContentLoaded', () => {
   nodes.forEach(node => node.setAttribute('target', '_blank'));
 });
 </script>
+    
 </html>

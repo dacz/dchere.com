@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://dchere.com/about/</loc>
+            <loc>https://dchere.com/cv/</loc>
             <lastmod>2023-07-11T00:00:00.000Z</lastmod>
         </url>
     
@@ -32,23 +32,28 @@
         </url>
     
         <url>
-            <loc>https://dchere.com/posts/</loc>
-            <lastmod>2024-07-15T17:35:14.786Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://dchere.com/posts/who-are-you/</loc>
             <lastmod>2024-07-16T00:00:00.000Z</lastmod>
         </url>
     
         <url>
             <loc>https://dchere.com/</loc>
-            <lastmod>2024-07-16T13:10:47.187Z</lastmod>
+            <lastmod>2024-07-16T19:42:26.288Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://dchere.com/posts/</loc>
+            <lastmod>2024-07-16T19:42:26.290Z</lastmod>
         </url>
     
         <url>
             <loc>https://dchere.com/ttt/</loc>
-            <lastmod>2024-07-16T19:35:19.823Z</lastmod>
+            <lastmod>2024-07-16T19:42:26.292Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://dchere.com/about/</loc>
+            <lastmod>2024-07-17T09:10:00.669Z</lastmod>
         </url>
     
 </urlset>

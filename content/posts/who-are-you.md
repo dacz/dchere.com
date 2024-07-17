@@ -1,11 +1,9 @@
 ---
 layout: postlayout
 tags: post
-title: Who are you?
+title: Who Are You?
 date: 2024-07-16
 ---
-
-# Who are you?
 
 <figure> {% image "content/img/who-are-you.jpeg", "Who are you?" %}
     <figcaption>Photo from book "Medium is the Massage" by Marshall McLuhan and Quentin Fiore,
@@ -13,10 +11,12 @@ date: 2024-07-16
 </figure>
 
 > “Who are YOU?”
+>
 > This was not an encouraging opening for a conversation. Alice replied, rather shyly,
+>
 > “I--I hardly know, sir, just at present-- at least I know who I WAS when I got up this morning, but I think I must have been changed several times since then.”
 > 
-> ― Lewis Carroll, Alice in Wonderland
+> <span class="author">Lewis Carroll, Alice in Wonderland</span>
 
 ## Imagine
 
@@ -33,9 +33,9 @@ But what if…
 … each round your stone is chosen by a chance? 
 And the same for your playmate.
 
-Who is the winner and who is the looser? 
+Who are you? The winner or the looser? 
 
-Is there any looser?
+Or is there any looser at all?
 
 [**Try by yourself.**](/ttt)
 

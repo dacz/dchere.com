@@ -75,6 +75,8 @@ const imageShortcode = async (
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("content/assets/*");
+  eleventyConfig.addPassthroughCopy("tttgame/ttt.css");
+  eleventyConfig.addPassthroughCopy("tttgame/ttt.js");
 
   eleventyConfig.addFilter("localeDateString", function (value) {
     return new Date(value).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });

@@ -1,35 +1,18 @@
+--- 
+layout: pagelayout 
+title: Different game 
+addasyncjs: tttgame/ttt.js
+addcss: tttgame/ttt.css
+---
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>dchere - Different game</title>
-        <link rel="stylesheet" href="/assets/main.css">
-        
-            <link rel="stylesheet" href="/tttgame/ttt.css">
-        
-    </head>
-    <body>
-        <header>
-    <nav>
-        <ul>
-            <li class="sitename">
-                <a href="/">dchere</a>
-            </li>
-            <li >
-                <a href="/about/">About this site</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-        
-            
-<article>
-    <h1>Different tic-tac-toe / noughts and crosses / Xs and Os</h1>
-<p>You will not choose the mark you play next move with. It is randomly chosen for your each move. The same apply for your playmate's move.</p>
-<p>Yes, you can get <strong>&quot;X&quot;</strong> to play and in next move it could be <strong>&quot;O&quot;</strong>.</p>
-<p>The question is: who is the winner and the looser? Is there any looser at all?</p>
+# Different tic-tac-toe / noughts and crosses / Xs and Os
+
+You will not choose the mark you play next move with. It is randomly chosen for your each move. The same apply for your playmate's move.
+
+Yes, you can get **"X"** to play and in next move it could be **"O"**.
+
+The question is: who is the winner and the looser? Is there any looser at all?
+
 <div id="placegame" class="hidden">
     <div id="game-start">
         <button>Start new game</button>
@@ -91,17 +74,3 @@
     <div id="game-board"></div>
 </div>
 
-</article>
-
-        
-        <footer>☀️🌊 No cookies served. Content is created with
-    <a
-        href="https://creativecommons.org/licenses/by/4.0/"
-        title="Creative Common BY license"
-        target="_blank">cc-by license</a>.</footer>
-    </body>
-    <script async src="/assets/bundle.js"></script>
-    
-        <script async src="/tttgame/ttt.js"></script>
-    
-</html>

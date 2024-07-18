@@ -10,7 +10,7 @@ title: dchere
         <title>dchere - {{ title }}</title>
         <link rel="stylesheet" href="/assets/main.css">
         {% if addcss %}
-            <link rel="stylesheet" href="/assets/{{ addcss }}">
+            <link rel="stylesheet" href="/{{ addcss }}">
         {% endif %}
     </head>
     <body>
@@ -20,9 +20,8 @@ title: dchere
         
         {% include "footer.njk" %}
     </body>
-    <script defer>
-        {% include "../assets/bundle.js" %}</script>
+    <script async src="/assets/bundle.js"></script>
     {% if addasyncjs %}
-        <script async src="../assets/{{ addasyncjs }}"></script>
+        <script async src="/{{ addasyncjs }}"></script>
     {% endif %}
 </html>

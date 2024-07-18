@@ -1,0 +1,19 @@
+<header>
+    <nav>
+        <ul>
+            <li class="sitename">
+                <a href="/">dchere</a>
+            </li>
+            <li {% if page.url=='/about/' %} aria-current="page" {% endif %}>
+                <a href="/about/">About this site</a>
+            </li>
+            <li {% if page.url=='/ttt/' %} aria-current="page" {% endif %}>
+                <a href="/ttt/">Game</a>
+            </li>
+            {% set regExp = r/^\/posts\// %}
+            <li {% if page.url=='/posts/' %} aria-current="page" {% elif regExp.test(page.url) %} aria-current="section" {% endif %}>
+                <a href="/posts/">Posts</a>
+            </li>
+        </ul>
+    </nav>
+</header>

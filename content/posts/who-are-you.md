@@ -37,7 +37,7 @@ Who are you? The winner or the looser?
 
 Or is there any looser at all?
 
-[**Try by yourself.**](/ttt)
+[**Try by yourself.**](/tic-tac-toe/)
 
 How did you play?
 

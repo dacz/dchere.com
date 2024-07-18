@@ -25,6 +25,30 @@ ExecReload=/usr/bin/caddy reload --config /home/caddyweb/Caddyfile --force
 sudo systemctl restart caddy
 
 
+TODO: logy pro caddy a logy pro appky: logrotate a mazani
 
 
 rsync -avz -e "ssh -i /Users/davidc/.ssh/id_rsa_undef_lightsail" --progress ~/development/testrsync/ admin@18.184.231.194:/home/caddyweb/testr
+
+vypada to, ze to posle data z lokalu na ten server.
+
+a tohle naopak ale vytvori to slozku testr
+
+rsync -avz -e "ssh -i /Users/davidc/.ssh/id_rsa_undef_lightsail" --progress  admin@18.184.231.194:/home/caddyweb/testr ~/development/testrsync/
+
+Co co tedy jde:
+
+ttt: chci poslat css a js a html snippet do 11ty folderu
+
+pak chci generovat 11ty web static folder
+
+static: chci syncovat z lokalu na srv. Veci, co na lokalu uz nejsou, chci smazat na srv
+
+pak chci buildovat appku (ttt)
+a ten build pak syncovat do exe folderu na server
+
+a pak chci pravidelne stahovat sqlite db fajl ze serveru (syncovat) a taky asi logy
+
+
+
+

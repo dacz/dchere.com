@@ -32,6 +32,8 @@ And I did it today. Small shabby shop, full of old LPs. With two older guys who 
 
 It was hard to choose one. But I did and bring it home. 
 
+{% image "content/img/lp-dire-straits.jpeg", "Dire Straits" %}
+
 It feels stupid to write "I bring it home". But last time I remember she same feeling was maybe 35 years ago when I bought Pink Floyd LP and was very careful not to break on my way home. 
 
 It feels melancholic. Maybe it is, maybe not. I put Dire Strait I bought on, tuned it up and listened to it. I like even the cracks.

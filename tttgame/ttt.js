@@ -378,7 +378,7 @@ function newGameSession() {
     }
 
     try {
-      await fetch('http://localhost:8181/', {
+      await fetch('/', {
         method: 'POST',
         body: data,
       })

@@ -1,0 +1,17 @@
+{
+  "name": "dchere",
+  "short_name": "dchere",
+  "description": "dchere",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-24x24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    }
+  ]
+}

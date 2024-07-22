@@ -1,10 +1,10 @@
 :root {
     --mainFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     --textFont: Georgia, "Times New Roman", Cambria, Times, serif;
-    --baseFontSize: 18px;
-    --baseTextSize: 22px;
-    --bgColor: #f8f8f4;
-    --mainColor: #222222;
+    --baseFontSize: 20px;
+    --baseLineHeight: 1.6;
+    --bgColor: #fdfded;
+    --mainColor: #111111;
     --lessSubtleColor: #747474;
     --subtleColor: #bababa;
 }
@@ -12,7 +12,7 @@
 html {
     box-sizing: border-box;
     font-size: var(--baseFontSize);
-    /* font-size: 22px; */
+    min-height: 100%;
 }
 
 *,
@@ -23,13 +23,21 @@ html {
 
 body {
     font-family: var(--mainFont);
-    padding: 1rem;
+    min-height: 100%;
     line-height: var(--baseLineHeight);
     background-color: var(--bgColor);
     color: var(--mainColor);
-    max-width: 42em;
-    line-height: 1.6;
     font-size: var(--baseFontSize);
+
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' viewBox='0 0 500 200' version='1.1' xmlns='http://www.w3.org/2000/svg'><path d='M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0' style='fill:rgb(31,117,246);stroke:none;'></path><path d='M 0,80 C 250,150 250,10 500,80 L 500,0 L 0,0' style='fill:rgb(152,193,255);stroke:none;'></path></svg>"), url("data:image/svg+xml;utf8,<svg width='100%' height='100%' viewBox='0 0 500 5' version='1.1' xmlns='http://www.w3.org/2000/svg'><path d='M 0,0 L 500,0' style='fill:none;stroke:rgba(51, 205, 73, 1);stroke-width:10px;'></path></svg>");
+    background-size: 5rem, 100%;
+    background-position: 0 0, bottom;
+    background-repeat: repeat-x, repeat-x;
+}
+
+#layout {
+    padding: 2rem 1rem 1rem 1rem;
+    max-width: 42em;
     margin: 0 auto;
 }
 
@@ -41,7 +49,7 @@ a:visited {
 p,
 li {
     font-family: var(--textFont);
-    font-size: var(--baseTextSize);
+    font-size: var(--baseFontSize);
 }
 
 h1,
@@ -100,7 +108,7 @@ blockquote {
 
 blockquote p {
     margin: 0;
-    margin-bottom: 0.5rem
+    margin-bottom: 0.5rem;
     padding: 0;
 }
 

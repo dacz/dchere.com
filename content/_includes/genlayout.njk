@@ -14,11 +14,13 @@ title: dchere
         {% endif %}
     </head>
     <body>
-        {% include "header.njk" %}
-        
-            {{ content | safe }}
-        
-        {% include "footer.njk" %}
+        <div id="layout">
+            {% include "header.njk" %}
+            
+                {{ content | safe }}
+            
+            {% include "footer.njk" %}
+        </div>
     </body>
     <script async src="/assets/bundle.js"></script>
     {% if addasyncjs %}

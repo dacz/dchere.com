@@ -112,6 +112,12 @@ function newGameSession() {
       game.startNew()
     })
 
+    const dialog = el.querySelector("dialog");
+    const closeButton = el.querySelector("dialog button");
+    closeButton.addEventListener("click", () => {
+      dialog.close();
+    });
+
     // create game board
     const gameBoard = document.createElement('div')
     gameBoard.id = 'game-board'
@@ -372,6 +378,10 @@ function newGameSession() {
   }
 
   game.sendFeedback = async () => {
+    // console.log('game.domGameBox', game.domGameBox);
+    // console.log('dialog', game.domGameBox.querySelector("dialog"));
+    // game.domGameBox.querySelector("dialog").showModal();
+
     const data = new URLSearchParams();
     for (const pair of new FormData(game.feedbackFormEl)) {
       data.append(pair[0], pair[1]);
@@ -385,6 +395,8 @@ function newGameSession() {
     } catch (e) {
       console.error('error sending feedback', e)
     }
+
+    game.domGameBox.querySelector("dialog").showModal();
   }
 
   return game

@@ -72,5 +72,9 @@ The question is: who is the winner and the looser? Is there any looser at all?
         <div class="next-token"></div>
     </div>
     <div id="game-board"></div>
+    <dialog>
+        <p>Thank you!</p>
+        <button autofocus>👍🏻</button>
+    </dialog>
 </div>
 

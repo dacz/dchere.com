@@ -48,6 +48,9 @@ date: 2023-07-11
 <p>I'm open to learn/work with other technologies.</p>
 <p>I'm interested in user experience (UX).</p>
 <h2>Selected previous experiences</h2>
+<p><strong>2023-today: Sabbatical, one-off contracts, hobby projects</strong>. Mostly Go engineering (local, aws), plain HTML/CSS, experimenting with Rust and Elixir lang, consulting, and learning REDACTED (I don't want to spoil it - see the bottom of this CV).</p>
+<p><strong>Takeaways: </strong>Having a pause was very much needed.</p>
+<hr />
 <p><strong>2020-2023: Senior Go developer</strong>, working on many vastly different subsystems. To
     name a few: massive data processing, circumventing Google Recaptcha (successfully), or being
     part of a small team that created a brand new service for copyright resolution for creators.</p>

@@ -1,0 +1,28 @@
+version: "3"
+
+tasks:
+  serve:
+    desc: Starts development server and watcher for changes.
+    cmds:
+      - npm run serve
+
+  build:
+    desc: Builds the static web.
+    cmds:
+      - npm run build
+
+  uploadcaddy:
+    desc: Caddy to the server
+    cmds:
+      - rsync -av Caddyfile admin@18.184.231.194:/home/caddyweb/dchere/Caddyfile
+
+  deploy:
+    desc: Deploys what is in _site to the server
+    cmds:
+      - rsync -rv _site/ admin@18.184.231.194:/home/caddyweb/dchere/static --delete
+
+  builddeploy:
+    desc: Builds and deploys in one step.
+    cmds:
+      - task build
+      - task deploy

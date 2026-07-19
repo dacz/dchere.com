@@ -1,0 +1,23 @@
+# JE IMPORTOVANEJ DO HLAVNÍHO CADDYFILE
+
+# === dchere.com ===
+
+dchere.com {
+	import bannish
+	import sitelog dchere
+	import headers_sec
+	import static_cache_0
+
+	encode zstd gzip
+	root * /home/caddyweb/dchere/static
+
+	import handle404
+	import file_serve_compressed
+}
+
+# === www.dchere.com ===
+
+www.dchere.com {
+	import bannish
+	import www2naked dchere.com
+}
